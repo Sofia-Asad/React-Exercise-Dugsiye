@@ -5,7 +5,7 @@ Exercise lists
 ## Exercise 1: UserCard Component
 
 ### Result
-![UserCard Result](./images/usercard.png)
+![UserCard Result](./images/UserCard.png)
 
 ### the code (UserCard.jsx)
 ```jsx
