@@ -51,7 +51,7 @@ export default Blog;
 ## Exercise 3: Dynamic userCard
 
 ### Result
-![Dynamic Usercard](./images/Dynamic_Usercard.png)
+![Dynamic Usercard](./images/Dynamic_usercard.png)
 
 ```jsx
 import PropTypes from 'prop-types';
