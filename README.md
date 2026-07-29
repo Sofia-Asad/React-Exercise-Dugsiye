@@ -46,7 +46,7 @@ const Blog=()=>{
 
 export default Blog;
 ```
-
+------------------------------------------------------------------------------------------------------------
 
 ## Exercise 3: Dynamic userCard
 
@@ -73,4 +73,30 @@ UserCard2.propTypes = {
 
 
 export default UserCard2
+```
+
+-----------------------------------------------------------------------------------------------------------
+
+## Exercise 4: Toggle Button
+
+### Result
+![Toggle Button](./images/Toggle.png)
+![Toggle Button](./images/ToggleBut.png)
+
+```jsx
+import { useState } from 'react';
+
+const ToggleButton = () =>{
+    const [isOn, setIsOn] = useState(false);
+    const toggle = () => setIsOn(!isOn);
+
+    return(
+        <div>
+            <p>The button is {isOn ? 'ON' : 'OFF'}</p>
+            <button onClick={toggle}>{isOn ? 'Turn OFF' : 'Turn ON'}</button>
+        </div>
+    )
+
+}
+export default ToggleButton;
 ```
